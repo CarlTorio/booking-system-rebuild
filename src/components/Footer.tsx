@@ -117,19 +117,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Facebook CTA Button */}
-        <div className="flex justify-center mb-8 md:mb-12">
-          <a 
-            href="https://www.facebook.com/CJhairlounge" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-[#1877f2] hover:bg-[#1877f2]/90 text-white font-semibold rounded-lg transition-colors shadow-lg hover:shadow-xl"
-          >
-            <Facebook className="w-5 h-5 md:w-6 md:h-6" />
-            <span className="text-sm md:text-base">Message us on Facebook for inquiries</span>
-          </a>
-        </div>
-
         {/* Bottom Bar */}
         <div className="pt-6 md:pt-8 border-t border-border">
           <div className="text-center space-y-3">
