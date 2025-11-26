@@ -53,9 +53,9 @@ const Hero = ({ onBookingClick }: HeroProps) => {
                 href="https://www.facebook.com/messages/t/100064671948409"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold px-6 py-3 md:px-8 md:py-4 text-base md:text-lg rounded-full border border-white/20 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="inline-flex items-center gap-1.5 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold px-4 py-2 md:px-5 md:py-2.5 text-sm md:text-base rounded-full border border-white/20 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
-                <Facebook className="h-5 w-5" />
+                <Facebook className="h-4 w-4" />
                 <span>Message us on Facebook</span>
               </a>
             </div>
