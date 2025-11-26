@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Facebook } from "lucide-react";
 import hero1 from "@/assets/hero-1.png";
 import hero2 from "@/assets/hero-2.png";
 import hero3 from "@/assets/hero-3.png";
@@ -39,13 +40,25 @@ const Hero = ({ onBookingClick }: HeroProps) => {
               Experience premium hair transformations with Brazilian Keratin, expert coloring, balayage, and precision styling. Your journey to stunning, healthy hair starts here.
             </p>
             
-            <Button 
-              size="lg" 
-              onClick={onBookingClick}
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 py-5 md:px-8 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 w-auto"
-            >
-              Book Your Transformation
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
+              <Button 
+                size="lg" 
+                onClick={onBookingClick}
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 py-5 md:px-8 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 w-auto"
+              >
+                Book Your Transformation
+              </Button>
+              
+              <a
+                href="https://www.facebook.com/messages/t/100064671948409"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold px-6 py-3 md:px-8 md:py-4 text-base md:text-lg rounded-full border border-white/20 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              >
+                <Facebook className="h-5 w-5" />
+                <span>Message us on Facebook</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
